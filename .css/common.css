@@ -1,0 +1,227 @@
+/* Fonts */
+
+@font-face {
+    font-family: Visby;
+    src: url(../assets/Fonts/Visby-CF/Fontspring-DEMO-visbycf-demibold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Visby;
+    src: url(../assets/Fonts/Visby-CF/Fontspring-DEMO-visbycf-medium.otf);
+    font-weight: 500;
+}
+
+/* Font Utility Classes */
+
+.p-1 {
+    font-size: 22px;
+}
+
+.p-2 {
+    font-size: 19px;
+    line-height: 31px;
+}
+
+.p-3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.p-4 {
+    font-size: 18px;
+    line-height: 19px;
+}
+.p-5{
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.h-1 {
+    font-size: 77px;
+    line-height: 72px;
+}
+
+.h-2 {
+    font-size: 62px;
+    line-height: 60px;
+}
+
+.h-3 {
+    font-size: 52px;
+    line-height: 52px;
+}
+
+.h-4 {
+    font-size: 26px;
+    line-height: 28px;
+}
+.letter-spacing{
+    letter-spacing: 0.3;
+}
+.font-visby{
+    font-family: Visby;
+}
+
+.font-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-weight-500{
+    font-weight: 600;
+}
+
+.font-weight-400{
+    font-weight: 500;
+}
+
+/* Utility Classes */
+.z-index-999{
+    z-index: 999;
+}
+.z-index-1{
+    z-index: -1;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-center {
+    display: grid;
+    place-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-radius-20px {
+    border-radius: 20px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.margin-0 {
+    margin: 0 ;
+}
+
+.m-1r{
+    margin: 1rem;
+}
+.m-top-1r{
+    margin: 1rem;
+}
+.m-2r{
+    margin: 2rem;
+}
+.m-5r{
+    margin: 5rem;
+}
+
+.p-0-5r{
+    padding: 0.5rem;
+}
+.p-top-1r{
+    padding-top: 1rem;
+}
+.p-2r{
+    padding: 2rem;
+}
+.p-5r{
+    padding: 5rem;
+}
+.font-color-white{
+    color: white;
+}
+.font-color-black{
+    color: black;
+}
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: transparent;
+    outline: none;
+    border: none;
+}
