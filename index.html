@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="view-transition" content="same-origin" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potenial</title>
@@ -11,77 +12,165 @@
     <link rel="shortcut icon" href="assets/Images/favicon.ico" type="image/x-icon">
 </head>
 
-<header>
-    <label for="text-wrapper-closser" class="pointer">
-        <i class='bx bx-x position-absolute x-icon z-index-999 font-color-white'></i>
-    </label>
-    <input type="checkbox" name="text-wrapper-closser" class="text-wrapper-closser display-none pointer"
-        id="text-wrapper-closser">
-    <div class="text-wrapper p-5 font-color-white p-0-5r flex-center pointer position-relative">
-        Potential and CFMOTO USA announce industry-first integration of terrain perception technology. Read more!
-    </div>
-    <!-- (Desktop) Navbar -->
-
-    <nav class="flex-space-between p-2r z-index-999">
-        <div class="nav-logo-cont">
-            <img src="assets/Images/logo.png" class="nav-logo">
+<body>
+    <header>
+        <label for="text-wrapper-closser" class="pointer">
+            <i class='bx bx-x position-absolute x-icon z-index-999 font-color-white'></i>
+        </label>
+        <input type="checkbox" name="text-wrapper-closser" class="text-wrapper-closser display-none pointer"
+            id="text-wrapper-closser">
+        <div class="text-wrapper p-5 font-color-white p-0-5r flex-center pointer position-relative">
+            Potential and CFMOTO USA announce industry-first integration of terrain perception technology. Read more!
         </div>
-        <ul class="flex nav-ul">
-            <li><a href=""
-                    class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link-1 position-relative">Home</a>
-            </li>
-            <li><a href=""
-                    class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">About</a>
-            </li>
-            <li><a href=""
-                    class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">Contact</a>
-            </li>
-        </ul>
-    </nav>
+        <!-- (Desktop) Navbar -->
 
-    <!-- Hero -->
-    <div class="hero flex-space-between flex-column">
-        <div class="hero-video-container overflow-hidden position-absolute z-index-1">
-            <video autoplay loop muted plays-inline class=" bg-video-hero flex-center">
-                <source src="assets/Video/background video.mp4">
-            </video>
+        <nav class="flex-space-between p-2r z-index-999">
+            <div class="nav-logo-cont">
+                <img src="assets/Images/logo.png" class="nav-logo">
+            </div>
+            <ul class="flex nav-ul">
+                <li><a href=""
+                        class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link-1 position-relative">Home</a>
+                </li>
+                <li><a href=""
+                        class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">About</a>
+                </li>
+                <li><a href=""
+                        class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <div class="hero flex-space-between flex-column">
+            <div class="hero-video-container overflow-hidden position-absolute z-index-1">
+                <video autoplay loop muted plays-inline class=" bg-video-hero flex-center">
+                    <source src="assets/Video/background video.mp4">
+                </video>
+            </div>
+
+            <div class="lower-hero p-2r flex-column">
+                <h1 class="font-color-white font-visby font-weight-500 h-1 letter-spacing">
+                    For What comes next
+                </h1>
+                <h4 class="font-color-white font-visby font-weight-500 h-4 letter-spacing">
+                    ADAS for off road. Driven by AI.
+                </h4>
+                <div class="button-container-hero flex-center">
+                    <button
+                        class="hero-button flex-center hero-button-1 font-color-black p-1 font-visby font-weight-500 pointer position-relative">
+                        Terrain <br>Intelligence
+                    </button>
+                    <button
+                        class="hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative">
+                        Contact
+                    </button>
+                </div>
+            </div>
+
         </div>
-        
-        <div class="lower-hero p-2r flex-column">
-            <h1 class="font-color-white font-visby font-weight-500 h-1 letter-spacing">
-                For What comes next
-            </h1>
-            <h4 class="font-color-white font-visby font-weight-500 h-4 letter-spacing">
-                ADAS for off road. Driven by AI.
-            </h4>
-            <div class="button-container-hero flex-center">
-                <button class="hero-button flex-center hero-button-1 font-color-black p-1 font-visby font-weight-500 pointer position-relative">
-                    Terrain <br>Intelligence
-                </button>
-                <button class="hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative">
-                    Contact
-                </button>
+
+        <!-- Technology -->
+
+        <section class="">
+            <div class="heading h-3 text-center font-visby p-5r">
+                <h1 class=" font-weight-500">We are using forward facing sensors to rethink how vehicles interact with
+                    complex terrain, both off road
+                    and on it.</h1>
+            </div>
+            <input type="checkbox" name="tech-translator" class="tech-translator display-none" id="tech-translator">
+            <div class="tech-main-cont flex">
+                <div class="grid tech-container  text-center">
+                    <div
+                        class="tech-heading pointer width-100  position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500">
+                        FOR DRIVERS
+                    </div>
+                    <label for="tech-translator">
+                        <div
+                            class=" tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500">
+                            FOR ENGINEERS
+                        </div>
+                    </label>
+
+                    <div class="tech-img overflow-hidden  border-radius-20px ">
+                        <img src="assets/Images/ForDrivers-1000.jpg" class="for-drivers-img">
+                    </div>
+                    <ul class="tech-ul flex-column-center">
+                        <li class="p-3 font-visby font-weight-500 flex-start"><img src="assets/Images/black-arrow.png"
+                                class="tech-li-img">Banish drive mode confusion for good</li>
+                        <li class="p-3 font-visby font-weight-500 flex-start"><img src="assets/Images/black-arrow.png"
+                                class="tech-li-img">No spotter for off road obstacles and gradients? No problem</li>
+                        <li class="p-3 font-visby font-weight-500 flex-start"><img src="assets/Images/black-arrow.png"
+                                class="tech-li-img">Cover complex terrain faster and go further, whatever your
+                            experience
+                            level
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid tech-container  text-center">
+                    <label for="tech-translator">
+                        <div
+                            class="tech-heading-2 pointer  width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500">
+                            FOR DRIVERS
+                        </div>
+                    </label>
+                    <div
+                        class="tech-heading pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500">
+                        FOR ENGINEERS
+                    </div>
+
+                    <div class="tech-img engineer-img-cont overflow-hidden  border-radius-20px position-relative">
+                        <img src="assets/Images/For_Engineers.jpg" class="for-drivers-img absolute-center" style="zoom: 120%; transform: translate(-50%, -50%);
+                ">
+                    </div>
+                    <ul class="tech-ul flex-column-center">
+                        <li class="p-3 font-visby font-weight-500 flex-start"><img src="assets/Images/black-arrow.png"
+                                class="tech-li-img">
+                            <p> <span class="font-visby font-weight-700 ">Hardware agnostic:</span> we tune our system
+                                for existing oboard cameras, and can leverage radar or LiDAR</p>
+                        </li>
+                        <li class="p-3 font-visby font-weight-500 flex-start"><img src="assets/Images/black-arrow.png"
+                                class="tech-li-img">
+                            <p><span class="font-visby font-weight-700 ">Modular and scalable:</span> plug Terrain
+                                Intelligence into your existing stack, or add full control with Off Road OS</p>
+                        </li>
+                        <li class="p-3 font-visby font-weight-500 flex-start"><img src="assets/Images/black-arrow.png"
+                                class="tech-li-img">
+                            <p><span class="font-visby font-weight-700 ">Universal: </span> we integrate with
+                                traditional ICE and advanced Electric Vehicle platforms</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Technology -->
+        <section class="our-tecnology-section">
+            <div class="our-tech-heading p-5r">
+            <div class="h-4 heading-tag text-center font-visby m-1r">
+                <h3>
+                    OUR TECHNOLOGY
+            </h3>
+            </div>
+            <div class="heading h-3 text-center font-visby">
+                <h1 class=" font-weight-500">What if off-road vehicles could see, understand and proactively prepare for the terrain ahead?
+                </h1>
+            </div>
+        </div>
+        <div class="our-tech-cards">
+            <div class="card-1">
+
+            </div>
+            <div class="card-2">
+                
             </div>
         </div>
 
-    </div>
-
-    <!-- Technology -->
-
-    <section class="p-5r">
-        <div class="heading h-3 text-center font-visby font-weight-500">
-            <h1>We are using forward facing sensors to rethink how vehicles interact with complex terrain, both off road and on it.</h1>
-        </div>
-        <div class="grid">
-            
-        </div>
-    </section>
+        </section>
 
 
+    </header>
 
-</header>
-
-<body>
 </body>
 
 </html>
