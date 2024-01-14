@@ -182,16 +182,36 @@ nav {
 .our-solution-container{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5rem;
+  place-items: center;
+  column-gap: 2rem;
 }
 
 .our-solution-ul{
   grid-column: 3/5;
+  place-self: flex-start;
+  margin-block: auto;
+  gap: 2rem;
 }
 
 .our-solution-img-cont,
 .our-solution-img{
   grid-column: span 2;
+  height: 520px;
 }
 .our-solution-main-cont{
   background-color: #50624C;
+}
+.our-solution-img-cont{
+  width: 400px;
+  height: 520px;
+}
+.solution-li{
+  max-width: 450px !important;
+}
+.auto-tech-content{
+  text-align: left;
+  padding: 0 8rem 0 3rem;
+}
+.potential-woods-shot{
+  background-image: url(../assets/Images/PotentialWoodsShot.jpg);
 }

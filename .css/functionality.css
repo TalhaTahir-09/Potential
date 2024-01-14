@@ -66,3 +66,26 @@
 .tech-translator:checked + .tech-main-cont{
     transform: translateX(-100vw);
 }
+input[type="radio"]:checked +  .our-solution-container{
+    display: grid;
+}
+.our-solution-heading-after::after{
+    left: -40px;
+    right: -40px;
+}
+*{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: cover 0% cover 15%;
+}
+button{
+    opacity: 1 !important;
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
