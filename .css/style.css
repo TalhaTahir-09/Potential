@@ -58,7 +58,7 @@ nav {
   max-width: 600px;
   gap: 0.5rem;
   margin-bottom: 3rem;
-  margin-top: 16rem;
+  margin-top: auto;
 }
 
 .button-container-hero {
@@ -68,7 +68,7 @@ nav {
 }
 
 .hero-button {
- border-radius: 15px 0;
+  border-radius: 15px 0;
   transition: all 0.5s ease;
 }
 
@@ -108,6 +108,7 @@ nav {
   right: 0;
   margin-top: 10px;
 }
+
 .our-solution-img-cont,
 .engineer-img-cont,
 .for-drivers-img,
@@ -144,44 +145,49 @@ nav {
   padding: 0 5rem 5rem 5rem;
 }
 
-.our-tecnology-section{
+.our-tecnology-section {
   min-height: 100vh;
-  background-color: #E3DAD2;
+  background-color: #e3dad2;
   background-image: url(../assets/Images/Potential-backgroun.png);
   gap: 5rem;
   padding: 5rem 8rem 8rem 8rem;
   place-items: center;
 }
 
-.our-tech-cards{
+.our-tech-cards {
   gap: 5rem;
 }
 
 .our-tech-card video,
-.our-tech-card{
+.our-tech-card {
   max-width: 430px;
   background-color: white;
 }
-.our-tech-card video{
+
+.our-tech-card video {
   border-radius: 20px 20px 0 0;
 }
-.our-tech-card-content{
+
+.our-tech-card-content {
   gap: 1rem;
 }
-.girl-image-section{
-height: 1060px;
+
+.girl-image-section {
+  height: 1060px;
 }
+
 .our-solution-heading {
-  padding: 2rem 17rem ;
+  padding: 2rem 17rem;
 }
-.our-solution-container{
+
+.our-solution-container {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5rem;
   place-items: center;
   column-gap: 2rem;
 }
 
-.our-solution-ul{
+.our-solution-ul {
   grid-column: 3/5;
   place-self: flex-start;
   margin-block: auto;
@@ -189,57 +195,69 @@ height: 1060px;
 }
 
 .our-solution-img-cont,
-.our-solution-img{
+.our-solution-img {
   grid-column: span 2;
   height: 520px;
 }
-.our-solution-main-cont{
-  background-color: #50624C;
+
+.our-solution-main-cont {
+  background-color: #50624c;
 }
-.our-solution-img-cont{
+
+.our-solution-img-cont {
   width: 400px;
   height: 520px;
 }
-.solution-li{
+
+.solution-li {
   max-width: 450px !important;
 }
-.auto-tech-content{
+
+.auto-tech-content {
   text-align: left;
   padding: 0 8rem 0 3rem;
 }
-.potential-woods-shot{
+
+.potential-woods-shot {
   background-image: url(../assets/Images/PotentialWoodsShot.jpg);
 }
-.modes-section{
+
+.modes-section {
   padding: 2rem 8rem 1rem 8rem;
   gap: 6rem;
 }
-.modes-content{
+
+.modes-content {
   max-width: 600px;
   gap: 0.5rem;
 }
-.modes-img{
+
+.modes-img {
   max-height: 420px;
 }
-.get-updates-section{
-  background-color: #346B79;
+
+.get-updates-section {
+  background-color: #346b79;
   grid-template-columns: min-content min-content min-content;
   padding: 5rem 5rem;
   place-items: center;
   gap: 1rem;
   justify-content: center;
 }
-.get-updates-section h3{
+
+.get-updates-section h3 {
   width: 300px;
 }
-input[type="email"]{
+
+input[type="email"] {
   width: 500px;
   height: 70px;
   background-color: transparent;
   border: none;
   padding: 1rem;
 }
-.email-update-cont::after{
+
+.email-update-cont::after {
   content: "";
   background-color: white;
   width: 100%;
@@ -248,35 +266,112 @@ input[type="email"]{
   bottom: 0;
   left: 0;
 }
-.upper-footer .flex{
+
+.upper-footer .flex {
   gap: 8rem;
   height: 100%;
 }
-.upper-footer{
-  background-color: #1E1E1E;
+
+.upper-footer {
+  background-color: #1e1e1e;
   height: 500px;
   padding: 6rem 4rem;
 }
-.upper-footer *{
+
+.upper-footer * {
   letter-spacing: 0.03em;
 }
-.footer-heading{
+
+.footer-heading {
   margin-bottom: 2rem;
 }
-.footer-ul{
+
+.footer-ul {
   gap: 1rem;
 }
-.copyright{
+
+.copyright {
   margin-top: auto;
 }
-.lower-footer{
-  background-color: #50624C;
+
+.lower-footer {
+  background-color: #50624c;
   background-image: url(../assets/Images/Footer-2024.png);
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
   min-height: 700px;
 }
-.lower-footer h3{
+
+.lower-footer h3 {
   padding-top: 9rem;
+}
+
+/* Contact Page */
+
+.contact-hero {
+  height: 580px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/Images/Contact-us-1600.png);
+  background-position: center;
+}
+
+.demo-section {
+  background-color: #50624c;
+}
+
+.row-2-demo {
+  width: 80%;
+  padding: 4rem;
+  padding: 1rem;
+}
+
+.row-2-demo .wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr);
+  grid-gap: 1rem;
+}
+
+.wrapper input {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.row-2-demo .heading {
+  grid-column: span 3;
+}
+
+.box-text,
+.box-email {
+  grid-row: 2;
+  grid-column: span 2;
+}
+
+.wrapper {
+  margin-bottom: 1rem;
+}
+
+.wrapper input,
+.wrapper textarea {
+  border-bottom: 2px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.height-input {
+  height: 40px;
+}
+.row-1-demo,
+.row-1-demo h3{
+  padding: 0 9rem 0 0;
+}
+.find-us-section{
+  gap: 1rem;
+}
+.find-us-section .para {
+  margin-top: 3rem;
 }

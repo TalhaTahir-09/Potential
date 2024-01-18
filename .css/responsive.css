@@ -8,20 +8,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .h-1 {
-    font-size: 58px;
-    line-height: 53px;
-  }
-
-  .h-2 {
-    font-size: 47px;
-    line-height: 46px;
-  }
-
-  .h-3 {
-    font-size: 40px;
-    line-height: 40px;
-  }
   .p-0-800px {
     padding: 0;
   }
@@ -31,7 +17,7 @@
   .display-flex-800px {
     display: flex;
   }
-  .flex-column-800px {
+  s .flex-column-800px {
     flex-direction: column;
   }
   .width-100-800px {
@@ -101,7 +87,7 @@
   .upper-footer {
     height: 100%;
   }
-  .upper-footer .up-footer-row-4{
+  .upper-footer .up-footer-row-4 {
     margin-bottom: 2rem;
   }
 }
