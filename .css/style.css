@@ -2,87 +2,403 @@
 @import url(funtionality.css);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: inherit;
-}
-body{
-    height: 200vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 /* Header */
 
 .text-wrapper {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #A28568;
-    height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a28568;
+  height: 40px;
 }
 
 .x-icon {
-    right: 5px;
-    font-size: 12px;
-    top: 10px;
+  right: 5px;
+  font-size: 12px;
+  top: 10px;
 }
 
-nav{
-    position: sticky;
-    background-color: transparent;
-    top: 0;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0));
+nav {
+  position: sticky;
+  background-color: transparent;
+  top: 0;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.397),
+    rgba(0, 0, 0, 0)
+  );
 }
+
 .nav-logo {
-    width: 300px;
+  width: 300px;
 }
 
 .nav-ul {
-    gap: 20px;
+  gap: 20px;
 }
 
-
-.hero-video-container {
-    width: 100%;
-    height: 750px;
-    transform: translateY(-100px);
+.bg-hero-video {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .hero {
-    height: 750px;
+  height: 750px;
 }
 
 .lower-hero {
-    max-width: 600px;
-    gap: 0.5rem;
-    margin-bottom: 3rem;
-    margin-top: 16rem;
+  max-width: 600px;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+  margin-top: auto;
 }
 
 .button-container-hero {
-    gap: 10px;
-    flex: 1;
-    justify-content: flex-start;
+  gap: 10px;
+  flex: 1;
+  justify-content: flex-start;
 }
 
 .hero-button {
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    z-index: 1;
-    transition: all 0.5s ease;
+  border-radius: 15px 0;
+  transition: all 0.5s ease;
 }
 
 .hero-button-1 {
-    height: 100px;
-    width: 300px;
-    background-color: white;
-    border: 3px solid;
-    border: 3px solid black;
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  border: 3px solid;
+  border: 3px solid black;
 }
 
 .hero-button-2 {
-    padding: 1em 1.5em;
-    border: 3px solid white;
-    height: 70px;
-    width: 180px;
-    align-items: flex-start;
+  padding: 1em 1.5em;
+  border: 3px solid white;
+  height: 70px;
+  width: 180px;
+  align-items: flex-start;
+}
+
+.tech-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 3rem;
+  row-gap: 4rem;
+  place-items: center;
+  min-width: 100vw;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.tech-heading::after {
+  content: "";
+  background-color: black;
+  height: 2px;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+}
+
+.our-solution-img-cont,
+.engineer-img-cont,
+.for-drivers-img,
+.tech-img {
+  max-width: 480px;
+  height: 460px;
+}
+
+.for-drivers-img {
+  max-width: 600px;
+}
+
+.engineer-img-cont {
+  width: 480px;
+}
+
+.tech-ul {
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.tech-li-img {
+  transform: translateY(-3px);
+  margin-right: 10px;
+}
+
+.tech-ul li {
+  max-width: 400px;
+  text-align: start;
+}
+
+.tech-container {
+  min-width: 100vw;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.our-tecnology-section {
+  min-height: 100vh;
+  background-color: #e3dad2;
+  background-image: url(../assets/Images/Potential-backgroun.png);
+  gap: 5rem;
+  padding: 5rem 8rem 8rem 8rem;
+  place-items: center;
+}
+
+.our-tech-cards {
+  gap: 5rem;
+}
+
+.our-tech-card video,
+.our-tech-card {
+  max-width: 430px;
+  background-color: white;
+}
+
+.our-tech-card video {
+  border-radius: 20px 20px 0 0;
+}
+
+.our-tech-card-content {
+  gap: 1rem;
+}
+
+.girl-image-section {
+  height: 1060px;
+}
+
+.our-solution-heading {
+  padding: 2rem 17rem;
+}
+
+.our-solution-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+  place-items: center;
+  column-gap: 2rem;
+}
+
+.our-solution-ul {
+  grid-column: 3/5;
+  place-self: flex-start;
+  margin-block: auto;
+  gap: 2rem;
+}
+
+.our-solution-img-cont,
+.our-solution-img {
+  grid-column: span 2;
+  height: 520px;
+}
+
+.our-solution-main-cont {
+  background-color: #50624c;
+}
+
+.our-solution-img-cont {
+  width: 400px;
+  height: 520px;
+}
+
+.solution-li {
+  max-width: 450px !important;
+}
+
+.auto-tech-content {
+  text-align: left;
+  padding: 0 8rem 0 3rem;
+}
+
+.potential-woods-shot {
+  background-image: url(../assets/Images/PotentialWoodsShot.jpg);
+}
+
+.modes-section {
+  padding: 2rem 8rem 1rem 8rem;
+  gap: 6rem;
+}
+
+.modes-content {
+  max-width: 600px;
+  gap: 0.5rem;
+}
+
+.modes-img {
+  max-height: 420px;
+}
+
+.get-updates-section {
+  background-color: #346b79;
+  grid-template-columns: min-content min-content min-content;
+  padding: 5rem 5rem;
+  place-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.get-updates-section h3 {
+  width: 300px;
+}
+
+input[type="email"] {
+  width: 500px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+}
+
+.email-update-cont::after {
+  content: "";
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+
+.upper-footer .flex {
+  gap: 8rem;
+  height: 100%;
+}
+
+.upper-footer {
+  background-color: #1e1e1e;
+  height: 500px;
+  padding: 6rem 4rem;
+}
+
+.upper-footer * {
+  letter-spacing: 0.03em;
+}
+
+.footer-heading {
+  margin-bottom: 2rem;
+}
+
+.footer-ul {
+  gap: 1rem;
+}
+
+.copyright {
+  margin-top: auto;
+}
+
+.lower-footer {
+  background-color: #50624c;
+  background-image: url(../assets/Images/Footer-2024.png);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+
+.lower-footer h3 {
+  padding-top: 9rem;
+}
+
+/* Contact Page */
+
+.contact-hero {
+  height: 580px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/Images/Contact-us-1600.png);
+  background-position: center;
+}
+
+.demo-section {
+  background-color: #50624c;
+}
+
+.row-2-demo {
+  width: 80%;
+  padding: 4rem;
+  padding: 1rem;
+}
+
+.row-2-demo .wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr);
+  grid-gap: 1rem;
+}
+
+.wrapper input {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.row-2-demo .heading {
+  grid-column: span 3;
+}
+
+.box-text,
+.box-email {
+  grid-row: 2;
+  grid-column: span 2;
+}
+
+.wrapper {
+  margin-bottom: 1rem;
+}
+
+.wrapper input,
+.wrapper textarea {
+  border-bottom: 2px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.height-input {
+  height: 40px;
+}
+.row-1-demo,
+.row-1-demo h3{
+  padding: 0 9rem 0 0;
+}
+.find-us-section{
+  gap: 1rem;
+}
+.find-us-section .para {
+  margin-top: 3rem;
+}
+/* About Page */
+.about-hero{
+  background-image: none;
+  transform: translateX(-2px);
+}
+.ready-to-explore-about{
+  padding: 4rem 15rem;
+  gap: 3rem;
+}
+.sam-poirier-section{
+  padding-block: 8rem;
+  background-image: url(../assets/Images/Potential-backgroun.png);
+  background-color: #e3dad2;
+}
+.who-we-are-content{
+  gap: 3rem;
+  max-width: 50%;
+  align-items: start;
+}
+.img-cont-about-2 {
+  background-image: url(../assets/Images/what-we-believe-1000.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.leadership-cont-about{
+  gap: 4rem;
 }

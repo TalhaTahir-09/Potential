@@ -1,87 +1,1058 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="view-transition" content="same-origin" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Potenial</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href=".css/style.css">
-    <link rel="stylesheet" href=".css/functionality.css">
-    <link rel="shortcut icon" href="assets/Images/favicon.ico" type="image/x-icon">
-</head>dasd
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href=".css/style.css" />
+    <link rel="stylesheet" href=".css/functionality.css" />
+    <link rel="stylesheet" href=".css/responsive.css">
+    <link
+      rel="shortcut icon"
+      href="assets/Images/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
 
-<header>
-    <label for="text-wrapper-closser" class="pointer">
-        <i class='bx bx-x position-absolute x-icon z-index-999 font-color-white'></i>
-    </label>
-    <input type="checkbox" name="text-wrapper-closser" class="text-wrapper-closser display-none pointer"
-        id="text-wrapper-closser">
-    <div class="text-wrapper p-5 font-color-white p-0-5r flex-center pointer position-relative">
-        Potential and CFMOTO USA announce industry-first integration of terrain perception technology. Read more!
-    </div>
-    <!-- (Desktop) Navbar -->
+  <body>
+    <header>
+      <!-- Text Top -->
+      <label for="text-wrapper-closser" class="pointer">
+        <i
+          class="bx bx-x position-absolute x-icon z-index-998 font-color-white"
+        ></i>
+      </label>
+      <input
+        type="checkbox"
+        name="text-wrapper-closser"
+        class="text-wrapper-closser display-none pointer"
+        id="text-wrapper-closser"
+      />
+      <div
+        class="text-wrapper p-5 font-color-white p-0-5r flex-center pointer position-relative"
+      >
+        Potential and CFMOTO USA announce industry-first integration of terrain
+        perception technology. Read more!
+      </div>
+      <!-- Hero -->
+      <div
+        class="hero flex-space-between flex-column position-relative overflow-hidden"
+      >
+        <video
+          autoplay
+          muted
+          loop
+          class="absolute-center z-index-1 bg-hero-video"
+        >
+          <source src="assets/Video/background video.mp4" type="video/mp4" />
+        </video>
 
-    <nav class="flex-space-between p-2r z-index-999">
-        <div class="nav-logo-cont">
-            <img src="assets/Images/logo.png" class="nav-logo">
+        <div class="lower-hero p-2r flex-column width-100-800px">
+          <h1
+            class="font-color-white font-visby font-weight-500 h-1 letter-spacing"
+          >
+            For What comes next
+          </h1>
+          <h4
+            class="font-color-white font-visby font-weight-500 h-4 letter-spacing"
+            style="opacity: 1 !important"
+          >
+            ADAS for off road. Driven by AI.
+          </h4>
+          <div class="button-container-hero flex-column-800px flex-center">
+            <button
+              class="hero-button flex-center hero-button-1 font-color-black p-1 font-visby font-weight-500 pointer position-relative"
+            >
+              Terrain <br />Intelligence
+            </button>
+            <button
+              class="hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative"
+            >
+              Contact
+            </button>
+          </div>
         </div>
-        <ul class="flex nav-ul">
-            <li><a href=""
-                    class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link-1 position-relative">Home</a>
-            </li>
-            <li><a href=""
-                    class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">About</a>
-            </li>
-            <li><a href=""
-                    class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">Contact</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Hero -->
-    <div class="hero flex-space-between flex-column">
-        <div class="hero-video-container overflow-hidden position-absolute z-index-1">
-            <video autoplay loop muted plays-inline class=" bg-video-hero flex-center">
-                <source src="assets/Video/background video.mp4">
-            </video>
-        </div>
-        
-        <div class="lower-hero p-2r flex-column">
-            <h1 class="font-color-white font-visby font-weight-500 h-1 letter-spacing">
-                For What comes next
-            </h1>
-            <h4 class="font-color-white font-visby font-weight-500 h-4 letter-spacing">
-                ADAS for off road. Driven by AI.
-            </h4>
-            <div class="button-container-hero flex-center">
-                <button class="hero-button flex-center hero-button-1 font-color-black p-1 font-visby font-weight-500 pointer position-relative">
-                    Terrain <br>Intelligence
-                </button>
-                <button class="hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative">
-                    Contact
-                </button>
-            </div>
-        </div>
-
-    </div>
+      </div>
+    </header>
 
     <!-- Technology -->
 
-    <section class="p-5r">
-        <div class="heading h-3 text-center font-visby font-weight-500">
-            <h1>We are using forward facing sensors to rethink how vehicles interact with complex terrain, both off road and on it.</h1>
+    <section class="">
+      <div class="heading h-3 text-center font-visby p-5r p-2rem-1050px">
+        <h1 class="font-weight-500">
+          We are using forward facing sensors to rethink how vehicles interact
+          with complex terrain, both off road and on it.
+        </h1>
+      </div>
+      <input
+        type="checkbox"
+        name="tech-translator"
+        class="tech-translator display-none"
+        id="tech-translator"
+      />
+      <div class="tech-main-cont flex">
+        <div class="grid tech-container gap-1-5r-800px p-0-800px text-center">
+          <div
+            class="tech-heading pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500"
+          >
+            FOR DRIVERS
+          </div>
+          <label for="tech-translator">
+            <div
+              class="tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500"
+            >
+              FOR ENGINEERS
+            </div>
+          </label>
+
+          <div class="tech-img overflow-hidden border-radius-20px">
+            <img
+              loading="lazy"
+              src="assets/Images/ForDrivers-1000.jpg"
+              class="for-drivers-img"
+            />
+          </div>
+          <ul class="tech-ul flex-column-center">
+            <li class=" width-100-800px p-3 font-visby font-weight-500 flex-start">
+              <img
+                src="assets/Images/black-arrow.png"
+                class="tech-li-img"
+              />Banish drive mode confusion for good
+            </li>
+            <li class=" width-100-800px p-3 font-visby font-weight-500 flex-start">
+              <img
+                loading="lazy"
+                src="assets/Images/black-arrow.png"
+                class="tech-li-img"
+              />No spotter for off road obstacles and gradients? No problem
+            </li>
+            <li class=" width-100-800px p-3 font-visby font-weight-500 flex-start">
+              <img
+                src="assets/Images/black-arrow.png"
+                class="tech-li-img"
+              />Cover complex terrain faster and go further, whatever your
+              experience level
+            </li>
+          </ul>
         </div>
-        <div class="grid">
-            
+        <div class="grid tech-container gap-1-5r-800px p-0-800px text-center">
+          <label for="tech-translator">
+            <div
+              class="tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500"
+            >
+              FOR DRIVERS
+            </div>
+          </label>
+          <div
+            class="tech-heading pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-black font-visby font-weight-500"
+          >
+            FOR ENGINEERS
+          </div>
+
+          <div
+            class="tech-img engineer-img-cont overflow-hidden border-radius-20px position-relative"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/For_Engineers.jpg"
+              class="for-drivers-img absolute-center"
+              style="zoom: 120%; transform: translate(-50%, -50%)"
+            />
+          </div>
+          <ul class="tech-ul flex-column-center">
+            <li class=" width-100-800px p-3 font-visby font-weight-500 flex-start">
+              <img
+                loading="lazy"
+                src="assets/Images/black-arrow.png"
+                class="tech-li-img"
+              />
+              <p>
+                <span class="font-visby font-weight-700"
+                  >Hardware agnostic:</span
+                >
+                we tune our system for existing oboard cameras, and can leverage
+                radar or LiDAR
+              </p>
+            </li>
+            <li class=" width-100-800px p-3 font-visby font-weight-500 flex-start">
+              <img
+                loading="lazy"
+                src="assets/Images/black-arrow.png"
+                class="tech-li-img"
+              />
+              <p>
+                <span class="font-visby font-weight-700"
+                  >Modular and scalable:</span
+                >
+                plug Terrain Intelligence into your existing stack, or add full
+                control with Off Road OS
+              </p>
+            </li>
+            <li class=" width-100-800px p-3 font-visby font-weight-500 flex-start">
+              <img
+                loading="lazy"
+                src="assets/Images/black-arrow.png"
+                class="tech-li-img"
+              />
+              <p>
+                <span class="font-visby font-weight-700">Universal: </span> we
+                integrate with traditional ICE and advanced Electric Vehicle
+                platforms
+              </p>
+            </li>
+          </ul>
         </div>
+      </div>
     </section>
 
+    <!-- Our Technology -->
+    <section class="our-tecnology-section grid p-2rem-1050px">
+      <div class="our-tech-heading">
+        <div class="h-4 heading-tag text-center font-visby m-1r">
+          <h3>OUR TECHNOLOGY</h3>
+        </div>
+        <div class="heading h-3 text-center font-visby">
+          <h1 class="font-weight-500">
+            What if off road vehicles could see, understand and proactively
+            prepare for the terrain ahead?
+          </h1>
+        </div>
+      </div>
+      <div class="our-tech-cards flex flex-column-800px">
+        <div class="card-1 width-100-800px our-tech-card border-radius-20px">
+          <video
+            src="assets/Video/Montana Winter Sunset - 15 Second Drone Video [HD].mp4"
+            loop
+            muted
+            autoplay
+            class="border-radius-20px width-100-800px"
+          ></video>
+          <div class="our-tech-card-content p-2r grid">
+            <div
+              class="heading h-4 font-color-black font-visby font-weight-500"
+            >
+              Terrain Intelligence
+            </div>
+            <div class="para p-3 font-color-black font-visby font-weight-500">
+              Our self learning, on vehicle software platform uses forward
+              facing sensors cameras, radar or lidar to interpret terrain shape,
+              incline gradient, surface type, obstacle height and more.
+            </div>
+          </div>
+        </div>
+        <div class="card-2 width-100-800px our-tech-card border-radius-20px">
+          <video
+            src="assets/Video/Montana Winter Sunset - 15 Second Drone Video [HD].mp4"
+            loop
+            muted
+            autoplay
+            class="border-radius-20px width-100-800px"
+          ></video>
+          <div class="our-tech-card-content p-2r grid">
+            <div
+              class="heading h-4 font-color-black font-visby font-weight-500"
+            >
+              Off Road OS
+            </div>
+            <div class="para p-3 font-color-black font-visby font-weight-500">
+              Our complete control stack enables vehicles to pre emptively self
+              select driveline, suspension and torque settings before arriving
+              at every obstacle, incline or change in surface.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Girl Image Section -->
+    <section class="girl-image-section position-relative ">
+      <img src="assets/Images/Potential-Lifestyle-1600.jpg" class="absolute-center">
+    </section>
 
+    <!-- Our Solution Section -->
+    <section class="p-5r">
+      <div class="our-solution-heading  p-0-800px p-2rem-1050px">
+        <div
+          class="h-4 heading-tag text-center font-visby m-1r upper-case font-color-green"
+        >
+          <h3>OUR Solutions</h3>
+        </div>
+        <div class="h-3 text-center font-visby">
+          <h1 class="font-weight-500">
+            Our solutions are invisible, intuitive and designed for vehicles of
+            all shapes and sizes.
+          </h1>
+        </div>
+      </div>
+    </section>
 
-</header>
+    <div class="tech-main-cont our-solution-main-cont flex p-5r">
+      <input
+        type="radio"
+        name="sections"
+        id="section1"
+        class="display-none"
+        checked
+      />
+      <div
+        class="grid our-solution-container text-center display-none width-100"
+      >
+        <label for="section1"
+          ><div
+            class="our-solution-heading-after tech-heading pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR AUTOMOTIVE
+          </div>
+        </label>
+        <label for="section2"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR POWERSPORT
+          </div>
+        </label>
+        <label for="section3"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR DEFENSE
+          </div>
+        </label>
+        <label for="section4"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR MINING
+          </div>
+        </label>
 
-<body>
-</body>
+        <div
+          class="our-solution-img-cont position-relative overflow-hidden border-radius-20px"
+        >
+          <img
+            loading="lazy"
+            src="assets/Images/ForAutomotive_2.jpg"
+            class="our-solution-img absolute-center border-radius-20px"
+          />
+        </div>
+        <ul class="tech-ul our-solution-ul flex-column-center">
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Safer:</span>
+              keep drivers’ eyes outside and reduce risks in tough terrain
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Faster:</span>
+              help novice drivers conquer complex terrain first time
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Further: </span> boost
+              range by up to 12% for longer play days
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go In Comfort: </span
+              >auto-select settings before arriving at changes in surface,
+              incline or obstacle height to enhance occupant experience
+            </p>
+          </li>
+          <button
+            class="width-100-800px-2 hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative"
+            style="
+              width: 270px;
+              height: 60px;
+              padding: 0em 2em;
+              align-items: center;
+              line-height: 1;
+            "
+          >
+            Talk To an Engineer
+          </button>
+        </ul>
+      </div>
+      <input type="radio" name="sections" id="section2" class="display-none" />
+      <div
+        class="grid our-solution-container text-center display-none width-100"
+      >
+        <label for="section1"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR AUTOMOTIVE
+          </div>
+        </label>
+        <label for="section2"
+          ><div
+            class="our-solution-heading-after tech-heading pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR POWERSPORT
+          </div>
+        </label>
+        <label for="section3"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR DEFENSE
+          </div>
+        </label>
+        <label for="section4"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR MINING
+          </div>
+        </label>
 
+        <div
+          class="our-solution-img-cont position-relative overflow-hidden border-radius-20px"
+        >
+          <img
+            loading="lazy"
+            src="assets/Images/For_Powersports2.jpg"
+            class="our-solution-img absolute-center"
+          />
+        </div>
+        <ul class="tech-ul our-solution-ul flex-column-center">
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go In Comfort: </span
+              >auto-select settings before arriving at changes in surface,
+              incline or obstacle height to enhance occupant experience
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Safer:</span>
+              keep drivers’ eyes outside and reduce risks in tough terrain
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Further: </span> boost
+              range by up to 12% for longer play days
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Faster:</span>
+              help novice drivers conquer complex terrain first time
+            </p>
+          </li>
+
+          <button
+            class="width-100-800px-2 hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative"
+            style="
+              width: 270px;
+              height: 60px;
+              padding: 0em 2em;
+              align-items: center;
+              line-height: 1;
+            "
+          >
+            Talk To an Engineer
+          </button>
+        </ul>
+      </div>
+      <input type="radio" name="sections" id="section3" class="display-none" />
+      <div
+        class="grid our-solution-container text-center display-none width-100"
+      >
+        <label for="section1"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR AUTOMOTIVE
+          </div>
+        </label>
+        <label for="section2"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR POWERSPORT
+          </div>
+        </label>
+        <label for="section3"
+          ><div
+            class="our-solution-heading-after tech-heading pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR DEFENSE
+          </div>
+        </label>
+        <label for="section4"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR MINING
+          </div>
+        </label>
+
+        <div
+          class="our-solution-img-cont position-relative overflow-hidden border-radius-20px"
+        >
+          <img
+            loading="lazy"
+            src="assets/Images/ForDefense_3.jpg"
+            class="our-solution-img absolute-center"
+          />
+        </div>
+        <ul class="tech-ul our-solution-ul flex-column-center">
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Further: </span> boost
+              range by up to 12% for longer play days
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go In Comfort: </span
+              >auto-select settings before arriving at changes in surface,
+              incline or obstacle height to enhance occupant experience
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Safer:</span>
+              keep drivers’ eyes outside and reduce risks in tough terrain
+            </p>
+          </li>
+
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Faster:</span>
+              help novice drivers conquer complex terrain first time
+            </p>
+          </li>
+
+          <button
+            class="width-100-800px-2 hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative"
+            style="
+              width: 270px;
+              height: 60px;
+              padding: 0em 2em;
+              align-items: center;
+              line-height: 1;
+            "
+          >
+            Talk To an Engineer
+          </button>
+        </ul>
+      </div>
+      <input type="radio" name="sections" id="section4" class="display-none" />
+      <div
+        class="grid our-solution-container text-center display-none width-100"
+      >
+        <label for="section1"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR AUTOMOTIVE
+          </div>
+        </label>
+        <label for="section2"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR POWERSPORT
+          </div>
+        </label>
+        <label for="section3"
+          ><div
+            class="our-solution-heading-after tech-heading-2 pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR DEFENSE
+          </div>
+        </label>
+        <label for="section4"
+          ><div
+            class="our-solution-heading-after tech-heading pointer width-100 position-relative p-1-5 letter-spacing p-0-5r font-color-white font-visby font-weight-500"
+          >
+            FOR MINING
+          </div>
+        </label>
+
+        <div
+          class="our-solution-img-cont position-relative overflow-hidden border-radius-20px"
+        >
+          <img
+            loading="lazy"
+            src="assets/Images/ForMining_2.jpg"
+            class="our-solution-img absolute-center"
+          />
+        </div>
+        <ul class="tech-ul our-solution-ul flex-column-center">
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go In Comfort: </span
+              >auto-select settings before arriving at changes in surface,
+              incline or obstacle height to enhance occupant experience
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Safer:</span>
+              keep drivers’ eyes outside and reduce risks in tough terrain
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Further: </span> boost
+              range by up to 12% for longer play days
+            </p>
+          </li>
+          <li
+            class="solution-li p-3 font-visby font-weight-500 font-color-white flex-start"
+          >
+            <img
+              loading="lazy"
+              src="assets/Images/white-arrow.png"
+              class="tech-li-img"
+            />
+            <p>
+              <span class="font-visby font-weight-700">Go Faster:</span>
+              help novice drivers conquer complex terrain first time
+            </p>
+          </li>
+
+          <button
+            class="width-100-800px-2 hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative"
+            style="
+              width: 270px;
+              height: 60px;
+              padding: 0em 2em;
+              align-items: center;
+              line-height: 1;
+            "
+          >
+            Talk To an Engineer
+          </button>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Automatic Tech (Desktop)-->
+    <div class="flex-center auto-tect-section display-none-800px">
+      <div class="auto-tech-content p-2rem-1050px p-0-800px">
+        <div class="h-4 heading-tag font-color-green font-visby m-1r">
+          <h3>OUR COMPANY</h3>
+        </div>
+        <div class="heading h-3 font-visby">
+          <h1 class="font-weight-500">
+            We’re an automotive technology company based in Fredericton, NB,
+            Canada.
+          </h1>
+        </div>
+        <p class="font-color-black p-2 font-visby font-weight-500">
+          Our interdisciplinary team includes engineers, data scientists,
+          computer vision specialists, and experts in AI and machine learning.
+          We’re passionate about adventuring in the great outdoors and building
+          the next generation of proactive off road driving aids. And we’ve got
+          our own off road test track.
+        </p>
+      </div>
+      <img src="assets/Images/portal engineer.png" alt="" />
+    </div>
+      <!-- Automatic Tech (Mobile)-->
+      <div class="flex-center auto-tect-section auto-tect-section-mobile display-none">
+        <div class="auto-tech-content">
+          <div class="h-4 heading-tag font-color-green font-visby m-1r">
+            <h3>OUR COMPANY</h3>
+          </div>
+        <img src="assets/Images/PotentialEngineering(mobile).jpg" style="width: 200%; height: 100%px; transform: translateX(-10%);" />
+          <div class="heading h-3 font-visby">
+            <h1 class="font-weight-500 mobile-auto-heading">
+              We’re an automotive technology company based in Fredericton, NB,
+              Canada.
+            </h1>
+          </div>
+          <p class="font-color-black p-2 font-visby font-weight-500 mobile-auto-p">
+            Our interdisciplinary team includes engineers, data scientists,
+            computer vision specialists, and experts in AI and machine learning.
+            We’re passionate about adventuring in the great outdoors and building
+            the next generation of proactive off road driving aids. And we’ve got
+            our own off road test track.
+          </p>
+        </div>
+      </div>
+
+    <!-- Potential Woods Shot -->
+    <!-- Girl Image Section -->
+    <section class="girl-image-section position-relative overflow-hidden">
+      <img src="assets/Images/PotentialWoodsShot.jpg" class="absolute-center">
+    </section>
+
+    <!-- Too many Modes -->
+    <div class="modes-section flex-center p-2rem-1050px flex-column-800px">
+      <img
+        src="assets/Images/white-paper-too-many-modes-02.jpg"
+        class="modes-img"
+      />
+      <div class="modes-content flex-column">
+        <div
+          class="h-4 heading-tag font-color-green font-weight-400 font-visby upper-case m-1r"
+        >
+          <h3>Resources</h3>
+        </div>
+        <div class="heading h-3 font-visby">
+          <h1 class="font-weight-500">Too many modes?</h1>
+        </div>
+        <p class="font-color-black p-2 font-visby font-weight-500">
+          As vehicles sprout more and more selectable modes to tackle all
+          terrains and surface conditions, there remains one common failure
+          point: the driver. Not knowing when to switch between technical
+          settings can get even the most advanced vehicle stuck. What's the
+          solution?
+        </p>
+        <button
+          class="hero-button hero-button-1 modes-read-btn hero-button flex-center font-color-black p-1 font-visby font-weight-500 pointer position-relative width-100-800px width-100-800px-2"
+        >
+          Read <br />more
+        </button>
+      </div>
+    </div>
+    <!-- Get Our Updates -->
+    <section class="get-updates-section grid">
+      <h3 class="h-4 font-color-white font-visby font-weight-500">
+        Get our updates: <br />news, tech, data and more.
+      </h3>
+      <div class="email-update-cont position-relative" style="width: 39vw;">
+        <input type="email" placeholder="Email Address" class="email-address" style="width: 39vw;" />
+      </div>
+      <button
+        class="hero-button flex-center hero-button-2 p-1 font-color-white font-visby font-weight-500 pointer position-relative sign-up-button"
+        style="width: 150px; height: 70px"
+      >
+        Sign Up
+      </button>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="upper-footer p-2rem-1050px">
+        <div class="flex flex-column-800px">
+          <div class="up-footer-row-1 up-footer-row">
+            <div
+              class="footer-heading font-color-white h-4 font-visby font-weight-500"
+            >
+              Technology
+            </div>
+            <ul class="footer-ul flex-column">
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Terrain Intelligence</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Off Road OS</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Automatic Mode Selection</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Spotter</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="up-footer-row-2 up-footer-row">
+            <div
+              class="footer-heading font-color-white h-4 font-visby font-weight-500"
+            >
+              Company
+            </div>
+            <ul class="footer-ul flex-column">
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >News</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Press</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="up-footer-row-3 up-footer-row">
+            <div
+              class="footer-heading font-color-white h-4 font-visby font-weight-500"
+            >
+              R&D
+            </div>
+            <ul class="footer-ul flex-column">
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Publication</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Test Track</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Test Vehicles</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="up-footer-row-4 up-footer-row">
+            <div
+              class="footer-heading font-color-white h-4 font-visby font-weight-500"
+            >
+              Careers
+            </div>
+            <ul class="footer-ul flex-column">
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Working for us</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  >Opportunities</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-color-white font-visby font-weight-500 p-2"
+                  href="#"
+                  ><i class="bx bxl-instagram"></i>
+                  <i class="bx bxl-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright font-color-white font-visby font-weight-700 p-5">
+          © Potential Motors, 2023. All Rights Reserved. Privacy Policy
+        </div>
+      </div>
+      <div class="lower-footer">
+        <div class="heading">
+          <h3
+            class="font-color-white font-visby font-weight-500 h-3 text-center p-5r"
+          >
+            Road ends.
+            <span class="footer-heading-underline position-relative"
+              >Fun begins.</span
+            >
+          </h3>
+        </div>
+      </div>
+    </footer>
+    <!-- Top -->
+    <div class="position-fixed" style="position: fixed; width: 100%;  top: 0;">
+      <!-- Text Top -->
+      <label for="text-wrapper-closser-2" class="pointer">
+        <i
+          class="bx bx-x position-absolute x-icon z-index-998 font-color-white"
+        ></i>
+      </label>
+      <input
+        type="checkbox"
+        name="text-wrapper-closser-2"
+        class="text-wrapper-closser-2 display-none pointer"
+        id= "text-wrapper-closser-2"
+      />
+      <div class="text-wrapper text-wrapper-2 p-5 font-color-white p-0-5r flex-center pointer position-relative z-index-999">
+        Potential and CFMOTO USA announce industry-first integration of terrain
+        perception technology. Read more!
+      </div>
+      <!-- (Desktop) Navbar -->
+
+      <nav class="flex-space-between p-2r z-index-999 display-none-800px">
+        <div class="nav-logo-cont">
+          <img loading="lazy" src="assets/Images/logo.png" class="nav-logo" />
+        </div>
+        <ul class="flex nav-ul">
+          <li>
+            <a
+              href="index.html"
+              class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link-1 position-relative"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact-us.html"
+              class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+        <!-- (Mobile) Navbar -->
+
+        <nav class="flex-space-between p-2r z-index-999 display-none display-flex-800px">
+          <div class="nav-logo-cont">
+            <img loading="lazy" src="assets/Images/logo.png" class="nav-logo" />
+          </div>
+          <ul class="flex nav-ul">
+            <i class='bx bx-menu font-color-white pointer' style="font-size: 40px;"></i>
+          </ul>
+        </nav>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,93 @@
+@media screen and (max-width: 1050px) {
+  .p-2rem-1050px {
+    padding: 2rem;
+  }
+  .upper-footer .flex {
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .p-0-800px {
+    padding: 0;
+  }
+  .display-none-800px {
+    display: none;
+  }
+  .display-flex-800px {
+    display: flex;
+  }
+  s .flex-column-800px {
+    flex-direction: column;
+  }
+  .width-100-800px {
+    max-width: 100% !important;
+  }
+  .width-100-800px-2 {
+    width: 100% !important;
+  }
+  .gap-1-5r-800px {
+    gap: 1rem;
+  }
+  .heading {
+    padding-bottom: 0;
+  }
+
+  .button-container-hero {
+    align-items: flex-start;
+  }
+  .lower-hero {
+    margin-bottom: 0;
+  }
+
+  .tech-ul,
+  .tech-img {
+    grid-column: span 2;
+  }
+  .our-solution-img,
+  .our-solution-ul,
+  .our-solution-img-cont {
+    grid-column: span 4;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+  .tech-ul {
+    margin-bottom: 4rem;
+  }
+  .our-solution-container label {
+    grid-column: span 2;
+    white-space: nowrap;
+  }
+  .tech-img,
+  .for-drivers-img {
+    width: 100vw;
+  }
+  .mobile-auto-p,
+  .mobile-auto-heading {
+    padding-block: 4rem;
+  }
+  .auto-tect-section-mobile {
+    display: flex;
+  }
+  .modes-content {
+    order: -1;
+  }
+  .get-updates-section {
+    grid-template-columns: 1fr 1fr;
+    place-items: start;
+  }
+  .get-updates-section h3 {
+    grid-column: span 2;
+  }
+  .email-update-cont,
+  .email-update-cont * {
+    width: 55vw !important;
+  }
+  .upper-footer {
+    height: 100%;
+  }
+  .upper-footer .up-footer-row-4 {
+    margin-bottom: 2rem;
+  }
+}
