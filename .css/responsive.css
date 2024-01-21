@@ -17,7 +17,7 @@
   .display-flex-800px {
     display: flex;
   }
-  s .flex-column-800px {
+  .flex-column-800px {
     flex-direction: column;
   }
   .width-100-800px {

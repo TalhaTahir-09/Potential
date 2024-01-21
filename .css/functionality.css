@@ -92,11 +92,6 @@ input[type="radio"]:checked + .our-solution-container {
   right: -40px;
 }
 
-h1,h2,h3,h4,h5,p,ul,li,button {
-  animation: fade linear both;
-  animation-timeline: view();
-  animation-range: cover 25% cover 40%;
-}
 .hero{
     animation: none;
 }
@@ -114,14 +109,6 @@ input[type="email"]:focus-visible {
   font-size: 18px;
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .footer-heading-underline::after{
   content: "";
   background-color: #A28568;
@@ -143,4 +130,11 @@ input[type="email"]:focus-visible {
   background-color: rgba(255, 255, 255, 0.397);
   outline: 2px solid white;
   outline-offset: 1.5px;
+}
+.snaps-inline{
+  scroll-snap-type: inline mandatory;
+  padding-left: 2rem;
+}
+.snaps-inline > *{
+  scroll-snap-align: center;
 }
