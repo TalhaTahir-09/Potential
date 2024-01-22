@@ -66,6 +66,53 @@
     font-size: 26px;
     line-height: 28px;
 }
+@media screen and (max-width: 800px){
+    .p-1 {
+        font-size: 18px;
+    }
+    .p-1-5{
+        font-size: 18px;
+    }
+    
+    .p-2 {
+        font-size: 19px;
+        line-height: 31px;
+    }
+    
+    .p-3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .p-4 {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .p-5{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    
+    .h-1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    
+    .h-2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    .h-3 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+    .h-4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
 .letter-spacing{
     letter-spacing: 0.3;
 }

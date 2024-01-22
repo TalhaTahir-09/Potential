@@ -478,3 +478,6 @@ input[type="email"] {
 .quotes-section::-webkit-scrollbar{
   transform: translateY(60px);
 }
+.order-1{
+  order: -1;
+}
