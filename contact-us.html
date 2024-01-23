@@ -1,390 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="view-transition" content="same-origin" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Potenial</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href=".css/style.css" />
-    <link rel="stylesheet" href=".css/functionality.css" />
-    <link rel="stylesheet" href=".css/responsive.css" />
-    <link
-      rel="shortcut icon"
-      href="assets/Images/favicon.ico"
-      type="image/x-icon"
-    />
-  </head>
 
-  <body>
-    <header>
-      <!-- Hero -->
-      <div
-        class="hero contact-hero flex-space-between flex-column position-relative overflow-hidden"
-      >
-        <div class="lower-hero p-2r flex-column width-100-800px">
-          <h1
-            class="font-color-white font-visby font-weight-500 h-1 letter-spacing"
-          >
-            Contact us.
-          </h1>
+<head>
+  <meta name="view-transition" content="same-origin" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Potenial</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href=".css/style.css" />
+  <link rel="stylesheet" href=".css/functionality.css" />
+  <link rel="stylesheet" href=".css/responsive.css" />
+  <link rel="shortcut icon" href="assets/Images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <!-- Hero -->
+    <div class="hero contact-hero flex-space-between flex-column position-relative overflow-hidden">
+      <div class="lower-hero p-2r flex-column width-100-800px">
+        <h1 class="font-color-white font-visby font-weight-500 h-1 letter-spacing">
+          Contact us.
+        </h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Ready to explore? -->
+  <section class="p-5r ready-to-explore">
+    <h3 class="h-3 font-visby font-color-black font-weight-500 text-center">
+      Ready to explore what comes <br />next? We’d love to hear from you.
+    </h3>
+  </section>
+  <!-- Demo Section -->
+  <section class="flex demo-section p-2r flex-column-800px p-0-800px">
+    <div class="row-1-demo">
+      <h3 class="h-3 font-visby font-color-white font-weight-500">
+        Talk tech or request a demo
+      </h3>
+    </div>
+    <div class="row-2-demo width-100-800px width-100-800px-2">
+      <form action="#">
+        <div class="wrapper">
+          <div class="heading font-color-white font-arial font-weight-400 p-4">
+            Name (required)
+          </div>
+          <div class="box">
+            <input type="text" id="f-name" class="f-name height-input" name="f-name" />
+            <label for="f-name" class="font-arial p-5 font-weight-400 font-color-white">
+              First Name
+            </label>
+          </div>
+          <div class="box box-l-name">
+            <input type="text" id="l-name" class="l-name height-input" name="l-name" />
+            <label for="l-name" class="font-arial p-5 font-weight-400 font-color-white">
+              Last Name
+            </label>
+          </div>
+        </div>
+        <div class="wrapper">
+          <label for="f-email">
+            <div class="heading font-color-white font-arial font-weight-400 p-4">
+              Email (required)
+            </div>
+          </label>
+          <div class="box-email">
+            <input type="text" id="f-email" class="f-email height-input" name="f-email" placeholder="your email.com" />
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="heading font-color-white font-arial font-weight-400 p-4">
+            Message:
+          </div>
+          <div class="box-text">
+            <textarea name="message" id="message-area" style="width: 100%; height: 100px"
+              placeholder="Ask us anything"></textarea>
+          </div>
+        </div>
+        <button
+          class="hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative"
+          style="margin-block: 8rem">
+          Submit
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- Find Us Section -->
+  <section class="find-us-section flex flex-column-800px" style="padding: 10rem 3rem 10rem 2rem">
+    <div class="find-us-content">
+      <div class="heading h-2 font-visby font-weight-500 font-color-black">
+        Find us
+      </div>
+      <div class="para p-2 font-color-black font-visby font-weight-500">
+        Our lab and purpose-built off-road proving grounds are located outside
+        Fredericton, NB, Canada.
+      </div>
+    </div>
+    <img src="assets/Images/Track image.png" alt="" />
+  </section>
+  <!-- Get Our Updates -->
+  <section class="get-updates-section grid">
+    <h3 class="h-4 font-color-white font-visby font-weight-500">
+      Get our updates: <br />news, tech, data and more.
+    </h3>
+    <div class="email-update-cont position-relative" style="width: 39vw">
+      <input type="email" placeholder="Email Address" class="email-address" style="width: 39vw" />
+    </div>
+    <button
+      class="hero-button flex-center hero-button-2 p-1 font-color-white font-visby font-weight-500 pointer position-relative sign-up-button"
+      style="width: 150px; height: 70px">
+      Sign Up
+    </button>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="upper-footer p-2rem-1050px">
+      <div class="flex flex-column-800px">
+        <div class="up-footer-row-1 up-footer-row">
+          <div class="footer-heading font-color-white h-4 font-visby font-weight-500">
+            Technology
+          </div>
+          <ul class="footer-ul flex-column">
+            <li>
+              <a class="font-color-white font-visby font-weight-500 p-2" href="#index-our-technology-section">Terrain
+                Intelligence</a>
+            </li>
+            <li>
+              <a class="font-color-white font-visby font-weight-500 p-2" href="#index-hero">Off Road OS</a>
+            </li>
+            <li class="font-color-white font-visby font-weight-500 p-2">
+              Automatic Mode Selection
+            </li>
+            <li class="font-color-white font-visby font-weight-500 p-2">
+              Spotter
+            </li>
+          </ul>
+        </div>
+        <div class="up-footer-row-2 up-footer-row">
+          <div class="footer-heading font-color-white h-4 font-visby font-weight-500">
+            Company
+          </div>
+          <ul class="footer-ul flex-column">
+            <li>
+              <a class="font-color-white font-visby font-weight-500 p-2" href="about.html">About</a>
+            </li>
+            <li class="font-color-white font-visby font-weight-500 p-2">
+              News
+            </li>
+            <li>
+              <a class="font-color-white font-visby font-weight-500 p-2" href="#about-quotes-section">Press</a>
+            </li>
+            <li>
+              <a class="font-color-white font-visby font-weight-500 p-2" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="up-footer-row-3 up-footer-row">
+          <div class="footer-heading font-color-white h-4 font-visby font-weight-500">
+            R&D
+          </div>
+          <ul class="footer-ul flex-column">
+            <li class="font-color-white font-visby font-weight-500 p-2">
+              Publications
+            </li>
+            <li>
+              <a class="font-color-white font-visby font-weight-500 p-2" href="contact-us.html">Test Track</a>
+            </li>
+            <li class="font-color-white font-visby font-weight-500 p-2">
+
+              Test Vehicles
+            </li>
+          </ul>
+        </div>
+        <div class="up-footer-row-4 up-footer-row">
+          <div class="footer-heading font-color-white h-4 font-visby font-weight-500">
+            Careers
+          </div>
+          <ul class="footer-ul flex-column">
+            <li>
+              <a class="font-color-white font-visby font-weight-500 p-2" href="contact-us.html">Working for us</a>
+            </li>
+            <li class="font-color-white font-visby font-weight-500 p-2">
+              Opportunities
+            </li>
+            <li>
+              <a href="#"><a href="https://www.instagram.com/potentialmotors/"
+                  class="font-color-white font-visby font-weight-500 p-2 social-footer-links" target="_blank"><i
+                    class="bx bxl-instagram"></a></i>
+                <a href="https://www.linkedin.com/company/potential-motors/"
+                  class="font-color-white font-visby font-weight-500 p-2 social-footer-links" target="_blank"><i
+                    class="bx bxl-linkedin"></a></i></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-
-    <!-- Ready to explore? -->
-    <section class="p-5r ready-to-explore">
-      <h3 class="h-3 font-visby font-color-black font-weight-500 text-center">
-        Ready to explore what comes <br />next? We’d love to hear from you.
-      </h3>
-    </section>
-    <!-- Demo Section -->
-    <section class="flex demo-section p-2r flex-column-800px p-0-800px">
-      <div class="row-1-demo">
-        <h3 class="h-3 font-visby font-color-white font-weight-500">
-          Talk tech or request a demo
+      <div class="copyright font-color-white font-visby font-weight-700 p-5">
+        © Potential Motors, 2023. All Rights Reserved. Privacy Policy
+      </div>
+    </div>
+    <div class="lower-footer">
+      <div class="heading">
+        <h3 class="font-color-white font-visby font-weight-500 h-3 text-center p-5r">
+          Road ends.
+          <span class="footer-heading-underline position-relative">Fun begins.</span>
         </h3>
       </div>
-      <div class="row-2-demo width-100-800px width-100-800px-2">
-        <form action="#">
-          <div class="wrapper">
-            <div
-              class="heading font-color-white font-arial font-weight-400 p-4"
-            >
-              Name (required)
-            </div>
-            <div class="box">
-              <input
-                type="text"
-                id="f-name"
-                class="f-name height-input"
-                name="f-name"
-              />
-              <label
-                for="f-name"
-                class="font-arial p-5 font-weight-400 font-color-white"
-              >
-                First Name
-              </label>
-            </div>
-            <div class="box box-l-name">
-              <input
-                type="text"
-                id="l-name"
-                class="l-name height-input"
-                name="l-name"
-              />
-              <label
-                for="l-name"
-                class="font-arial p-5 font-weight-400 font-color-white"
-              >
-                Last Name
-              </label>
-            </div>
-          </div>
-          <div class="wrapper">
-            <label for="f-email"
-              ><div
-                class="heading font-color-white font-arial font-weight-400 p-4"
-              >
-                Email (required)
-              </div>
-            </label>
-            <div class="box-email">
-              <input
-                type="text"
-                id="f-email"
-                class="f-email height-input"
-                name="f-email"
-                placeholder="your email.com"
-              />
-            </div>
-          </div>
-          <div class="wrapper">
-            <div
-              class="heading font-color-white font-arial font-weight-400 p-4"
-            >
-              Message:
-            </div>
-            <div class="box-text">
-              <textarea
-                name="message"
-                id="message-area"
-                style="width: 100%; height: 100px"
-                placeholder="Ask us anything"
-              ></textarea>
-            </div>
-          </div>
-          <button
-            class="hero-button hero-button-2 hero-button flex-center font-color-white p-1 font-visby font-weight-500 pointer position-relative"
-            style="margin-block: 8rem"
-          >
-            Submit
-          </button>
-        </form>
-      </div>
-    </section>
-    <!-- Find Us Section -->
-    <section
-      class="find-us-section flex flex-column-800px"
-      style="padding: 10rem 3rem 10rem 2rem"
-    >
-      <div class="find-us-content">
-        <div class="heading h-2 font-visby font-weight-500 font-color-black">
-          Find us
-        </div>
-        <div class="para p-2 font-color-black font-visby font-weight-500">
-          Our lab and purpose-built off-road proving grounds are located outside
-          Fredericton, NB, Canada.
-        </div>
-      </div>
-      <img src="assets/Images/Track image.png" alt="" />
-    </section>
-    <!-- Get Our Updates -->
-    <section class="get-updates-section grid">
-      <h3 class="h-4 font-color-white font-visby font-weight-500">
-        Get our updates: <br />news, tech, data and more.
-      </h3>
-      <div class="email-update-cont position-relative" style="width: 39vw">
-        <input
-          type="email"
-          placeholder="Email Address"
-          class="email-address"
-          style="width: 39vw"
-        />
-      </div>
-      <button
-        class="hero-button flex-center hero-button-2 p-1 font-color-white font-visby font-weight-500 pointer position-relative sign-up-button"
-        style="width: 150px; height: 70px"
-      >
-        Sign Up
-      </button>
-    </section>
-    <!-- Footer -->
-    <footer>
-      <div class="upper-footer p-2rem-1050px">
-        <div class="flex flex-column-800px">
-          <div class="up-footer-row-1 up-footer-row">
-            <div
-              class="footer-heading font-color-white h-4 font-visby font-weight-500"
-            >
-              Technology
-            </div>
-            <ul class="footer-ul flex-column">
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Terrain Intelligence</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Off Road OS</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Automatic Mode Selection</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Spotter</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="up-footer-row-2 up-footer-row">
-            <div
-              class="footer-heading font-color-white h-4 font-visby font-weight-500"
-            >
-              Company
-            </div>
-            <ul class="footer-ul flex-column">
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >News</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Press</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="up-footer-row-3 up-footer-row">
-            <div
-              class="footer-heading font-color-white h-4 font-visby font-weight-500"
-            >
-              R&D
-            </div>
-            <ul class="footer-ul flex-column">
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Publication</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Test Track</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Test Vehicles</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="up-footer-row-4 up-footer-row">
-            <div
-              class="footer-heading font-color-white h-4 font-visby font-weight-500"
-            >
-              Careers
-            </div>
-            <ul class="footer-ul flex-column">
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Working for us</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  >Opportunities</a
-                >
-              </li>
-              <li>
-                <a
-                  class="font-color-white font-visby font-weight-500 p-2"
-                  href="#"
-                  ><i class="bx bxl-instagram"></i>
-                  <i class="bx bxl-linkedin"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="copyright font-color-white font-visby font-weight-700 p-5">
-          © Potential Motors, 2023. All Rights Reserved. Privacy Policy
-        </div>
-      </div>
-      <div class="lower-footer">
-        <div class="heading">
-          <h3
-            class="font-color-white font-visby font-weight-500 h-3 text-center p-5r"
-          >
-            Road ends.
-            <span class="footer-heading-underline position-relative"
-              >Fun begins.</span
-            >
-          </h3>
-        </div>
-      </div>
-    </footer>
-    <!-- Top -->
-    <div class="position-fixed" style="position: fixed; width: 100%; top: 0">
-      <!-- Text Top -->
-      <label for="text-wrapper-closser-2" class="pointer">
-        <i
-          class="bx bx-x position-absolute x-icon z-index-998 font-color-white"
-        ></i>
-      </label>
-      <input
-        type="checkbox"
-        name="text-wrapper-closser-2"
-        class="text-wrapper-closser-2 display-none pointer"
-        id="text-wrapper-closser-2"
-      />
-      <div
-        class="text-wrapper text-wrapper-2 p-5 font-color-white p-0-5r flex-center pointer position-relative z-index-999"
-      >
-        Potential and CFMOTO USA announce industry-first integration of terrain
-        perception technology. Read more!
-      </div>
-      <!-- (Desktop) Navbar -->
-
-      <nav class="flex-space-between p-2r z-index-999 display-none-800px">
-        <div class="nav-logo-cont">
-          <img loading="lazy" src="assets/Images/logo.png" class="nav-logo" />
-        </div>
-        <ul class="flex nav-ul">
-          <li>
-            <a
-              href="index.html"
-              class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="about.html"
-              class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="contact-us.html"
-              class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link-1 position-relative"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!-- (Mobile) Navbar -->
-
-      <nav
-        class="flex-space-between p-2r z-index-999 display-none display-flex-800px"
-      >
-        <div class="nav-logo-cont">
-          <img loading="lazy" src="assets/Images/logo.png" class="nav-logo" />
-        </div>
-        <ul class="flex nav-ul">
-          <i
-            class="bx bx-menu font-color-white pointer"
-            style="font-size: 40px"
-          ></i>
-        </ul>
-      </nav>
     </div>
-  </body>
+  </footer>
+  <!-- Top -->
+  <div class="position-fixed" style="position: fixed; width: 100%;  top: 0;">
+    <!-- Text Top -->
+
+    <label for="text-wrapper-closser-2" class="pointer">
+      <i class="bx bx-x position-absolute x-icon z-index-998 font-color-white"></i>
+    </label>
+    <input type="checkbox" name="text-wrapper-closser-2"
+      class="text-wrapper-closser-2 pointer display-none position-absolute" id="text-wrapper-closser-2" />
+    <div
+      class="text-wrapper text-wrapper-2 p-5 font-color-white p-0-5r flex-center pointer position-relative z-index-1 text-center">
+      Potential and CFMOTO USA announce industry-first integration of terrain
+      perception technology. Read more!
+    </div>
+    <!-- (Desktop) Navbar -->
+
+    <nav class="flex-space-between p-2r z-index-999 display-none-800px">
+      <div class="nav-logo-cont">
+        <img loading="lazy" src="assets/Images/logo.png" class="nav-logo" />
+      </div>
+      <ul class="flex nav-ul">
+        <li>
+          <a href="index.html"
+            class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">Home</a>
+        </li>
+        <li>
+          <a href="about.html"
+            class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link position-relative">About</a>
+        </li>
+        <li>
+          <a href="contact-us.html"
+            class="font-color-white p-3 font-visby font-weight-500 letter-spacing fancy-link-1 position-relative">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- (Mobile) Navbar -->
+
+    <nav class="flex-space-between p-2r z-index-999 display-none display-flex-800px">
+      <div class="nav-logo-cont">
+        <img loading="lazy" src="assets/Images/logo.png" class="nav-logo" />
+      </div>
+      <ul class="flex nav-ul">
+        <label for="ham-menu-opener">
+          <i class='bx bx-menu font-color-white pointer' style="font-size: 40px;"></i>
+        </label>
+      </ul>
+      <input type="checkbox" class="display-none ham-menu-opener" id="ham-menu-opener" name="ham-menu-opener">
+      <div class="ham-menu grid-center display-none">
+        <ul class="ham-menu-ul flex-column text-center">
+          <li class="ham-menu-li"><a href="index.html" class="ham-menu-a font-arial h-2 font-color-white">Home</a></li>
+          <li class="ham-menu-li"><a href="about.html" class="ham-menu-a font-arial h-2 font-color-white ">About</a>
+          </li>
+          <li class="ham-menu-li"><a href="contact-us.html"
+              class="ham-menu-a font-arial h-2 font-color-white ham-menu-underline">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</body>
+
 </html>

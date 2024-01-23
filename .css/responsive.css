@@ -74,7 +74,7 @@
   }
   .tech-ul {
     margin-bottom: 4rem;
-    width: 100%;
+    margin: auto;
   }
   .our-solution-container label {
     grid-column: span 2;
@@ -152,6 +152,9 @@
     padding: 2rem;
   }
   .ready-to-explore{
-    padding: 3rem 0;
+    padding: 3rem 2rem;
+  }
+  .text-wrapper{
+    display: none;
   }
 }
