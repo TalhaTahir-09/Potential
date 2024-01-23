@@ -63,3 +63,6 @@
 .hero-button-2:hover{
     color: rgb(0, 0, 0);
 }
+.tech-translator:checked + .tech-main-cont{
+    transform: translateX(-100vw);
+}

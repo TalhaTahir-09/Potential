@@ -2,87 +2,196 @@
 @import url(funtionality.css);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: inherit;
-}
-body{
-    height: 200vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
 }
 
+body {
+  height: 200vh;
+  overflow-x: hidden;
+}
 
 /* Header */
 
 .text-wrapper {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #A28568;
-    height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a28568;
+  height: 40px;
 }
 
 .x-icon {
-    right: 5px;
-    font-size: 12px;
-    top: 10px;
+  right: 5px;
+  font-size: 12px;
+  top: 10px;
 }
 
-nav{
-    position: sticky;
-    background-color: transparent;
-    top: 0;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0));
+nav {
+  position: sticky;
+  background-color: transparent;
+  top: 0;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.397),
+    rgba(0, 0, 0, 0)
+  );
 }
+
 .nav-logo {
-    width: 300px;
+  width: 300px;
 }
 
 .nav-ul {
-    gap: 20px;
+  gap: 20px;
 }
 
-
-.hero-video-container {
-    width: 100%;
-    height: 750px;
-    transform: translateY(-100px);
+.bg-hero-video {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .hero {
-    height: 750px;
+  height: 750px;
 }
 
 .lower-hero {
-    max-width: 600px;
-    gap: 0.5rem;
-    margin-bottom: 3rem;
-    margin-top: 16rem;
+  max-width: 600px;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+  margin-top: 16rem;
 }
 
 .button-container-hero {
-    gap: 10px;
-    flex: 1;
-    justify-content: flex-start;
+  gap: 10px;
+  flex: 1;
+  justify-content: flex-start;
 }
 
 .hero-button {
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    z-index: 1;
-    transition: all 0.5s ease;
+ border-radius: 15px 0;
+  z-index: 1;
+  transition: all 0.5s ease;
 }
 
 .hero-button-1 {
-    height: 100px;
-    width: 300px;
-    background-color: white;
-    border: 3px solid;
-    border: 3px solid black;
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  border: 3px solid;
+  border: 3px solid black;
 }
 
 .hero-button-2 {
-    padding: 1em 1.5em;
-    border: 3px solid white;
-    height: 70px;
-    width: 180px;
-    align-items: flex-start;
+  padding: 1em 1.5em;
+  border: 3px solid white;
+  height: 70px;
+  width: 180px;
+  align-items: flex-start;
+}
+
+.tech-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 3rem;
+  row-gap: 4rem;
+  place-items: center;
+  min-width: 100vw;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.tech-heading::after {
+  content: "";
+  background-color: black;
+  height: 2px;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+}
+.our-solution-img-cont,
+.engineer-img-cont,
+.for-drivers-img,
+.tech-img {
+  max-width: 480px;
+  height: 460px;
+}
+
+.for-drivers-img {
+  max-width: 600px;
+}
+
+.engineer-img-cont {
+  width: 480px;
+}
+
+.tech-ul {
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.tech-li-img {
+  transform: translateY(-3px);
+  margin-right: 10px;
+}
+
+.tech-ul li {
+  max-width: 400px;
+  text-align: start;
+}
+
+.tech-container {
+  min-width: 100vw;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.our-tecnology-section{
+  min-height: 100vh;
+  background-color: #E3DAD2;
+  background-image: url(../assets/Images/Potential-backgroun.png);
+  gap: 5rem;
+  padding: 5rem 8rem 8rem 8rem;
+  place-items: center;
+}
+
+.our-tech-cards{
+  gap: 5rem;
+}
+
+.our-tech-card video,
+.our-tech-card{
+  max-width: 430px;
+  background-color: white;
+}
+.our-tech-card video{
+  border-radius: 20px 20px 0 0;
+}
+.our-tech-card-content{
+  gap: 1rem;
+}
+.girl-image-section{
+  min-height: 900px;
+  background-image: url(../assets/Images/Potential-Lifestyle-1600.jpg);
+  background-size: cover;
+  cursor: grab;
+}
+.our-solution-heading {
+  padding: 2rem 17rem ;
+}
+.our-solution-container{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+}
+
+.our-solution-ul{
+  grid-column: 3/5;
+}
+
+.our-solution-img-cont,
+.our-solution-img{
+  grid-column: span 2;
+}
+.our-solution-main-cont{
+  background-color: #50624C;
 }
