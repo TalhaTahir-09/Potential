@@ -182,16 +182,106 @@ nav {
 .our-solution-container{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5rem;
+  place-items: center;
+  column-gap: 2rem;
 }
 
 .our-solution-ul{
   grid-column: 3/5;
+  place-self: flex-start;
+  margin-block: auto;
+  gap: 2rem;
 }
 
 .our-solution-img-cont,
 .our-solution-img{
   grid-column: span 2;
+  height: 520px;
 }
 .our-solution-main-cont{
   background-color: #50624C;
+}
+.our-solution-img-cont{
+  width: 400px;
+  height: 520px;
+}
+.solution-li{
+  max-width: 450px !important;
+}
+.auto-tech-content{
+  text-align: left;
+  padding: 0 8rem 0 3rem;
+}
+.potential-woods-shot{
+  background-image: url(../assets/Images/PotentialWoodsShot.jpg);
+}
+.modes-section{
+  padding: 2rem 8rem 1rem 8rem;
+  gap: 6rem;
+}
+.modes-content{
+  max-width: 600px;
+  gap: 0.5rem;
+}
+.modes-img{
+  max-height: 420px;
+}
+.get-updates-section{
+  background-color: #346B79;
+  grid-template-columns: min-content min-content min-content;
+  padding: 5rem 5rem;
+  place-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.get-updates-section h3{
+  width: 300px;
+}
+input[type="email"]{
+  width: 500px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+}
+.email-update-cont::after{
+  content: "";
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+.upper-footer .flex{
+  gap: 8rem;
+  height: 100%;
+}
+.upper-footer{
+  background-color: #1E1E1E;
+  height: 500px;
+  padding: 6rem 4rem;
+}
+.upper-footer *{
+  letter-spacing: 0.03em;
+}
+.footer-heading{
+  margin-bottom: 2rem;
+}
+.footer-ul{
+  gap: 1rem;
+}
+.copyright{
+  margin-top: auto;
+}
+.lower-footer{
+  background-color: #50624C;
+  background-image: url(../assets/Images/Footer-2024.png);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+.lower-footer h3{
+  padding-top: 9rem;
 }
