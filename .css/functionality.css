@@ -81,9 +81,6 @@
 .sign-up-button:hover{
   color: #346B79;
 }
-.tech-translator:checked + .tech-main-cont {
-  transform: translateX(-100vw);
-}
 input[type="radio"]:checked + .our-solution-container {
   display: grid;
 }

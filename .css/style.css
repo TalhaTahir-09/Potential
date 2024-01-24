@@ -95,7 +95,6 @@ nav {
   margin-top: 3rem;
   row-gap: 4rem;
   place-items: center;
-  min-width: 100vw;
   padding: 0 5rem 5rem 5rem;
 }
 
@@ -105,8 +104,8 @@ nav {
   height: 2px;
   position: absolute;
   bottom: -7px;
-  left: 0;
-  right: 0;
+  left: -27px;
+  right: -27px;
   margin-top: 10px;
 }
 
@@ -316,6 +315,7 @@ input[type="email"] {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../assets/Images/Contact-us-1600.png);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .demo-section {
@@ -502,4 +502,7 @@ input[type="email"] {
 }
 .social-footer-links{
   font-size: 30px;
+}
+.tech-translator:checked + .tech-container{
+  display: grid;
 }
