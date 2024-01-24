@@ -55,6 +55,8 @@
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: -1;
+
 }
 .modes-read-btn::after {
  background-color: black;
@@ -74,9 +76,11 @@
 
 .hero-button-1:hover {
   color: white;
+  z-index: 998;
 }
 .hero-button-2:hover {
   color: rgb(0, 0, 0);
+  z-index: 998;
 }
 .sign-up-button:hover{
   color: #346B79;
@@ -134,4 +138,13 @@ input[type="email"]:focus-visible {
 }
 .snaps-inline > *{
   scroll-snap-align: center;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

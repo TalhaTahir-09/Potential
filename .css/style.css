@@ -78,6 +78,8 @@ nav {
   width: 300px;
   background-color: white;
   border: 3px solid;
+  z-index: 997;
+  position: relative;
   border: 3px solid black;
 }
 
@@ -87,6 +89,7 @@ nav {
   height: 70px;
   width: 180px;
   align-items: flex-start;
+  z-index: 997;
 }
 
 .tech-container {
