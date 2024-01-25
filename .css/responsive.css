@@ -20,6 +20,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .tech-ul,
+  .tech-img {
+    grid-column: span 2;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -60,10 +65,7 @@
   .leadership-cont-about *{
     text-align: center !important;
   }
-  .tech-ul,
-  .tech-img {
-    grid-column: span 2;
-  }
+
   .our-solution-img,
   .our-solution-ul,
   .our-solution-img-cont {
@@ -74,7 +76,7 @@
   }
   .tech-ul {
     margin-bottom: 4rem;
-    margin: auto;
+    margin-left: 5vw;
   }
   .our-solution-container label {
     grid-column: span 2;
@@ -82,11 +84,11 @@
   }
   .tech-img,
   .for-drivers-img {
-    width: 100vw;
+    width: 85vw;
   }
   .mobile-auto-p,
   .mobile-auto-heading {
-    padding-block: 4rem;
+    padding-block: 1rem;
   }
   .auto-tect-section-mobile {
     display: flex;
@@ -156,6 +158,42 @@
   }
   .text-wrapper{
     display: none;
+  }
+  .get-updates-section .hero-button-2{
+    grid-row: 3;
+  }
+  .get-updates-section{
+    padding: 2rem;
+    place-items: flex-start !important;
+  }
+  .get-updates-section{
+    justify-content: flex-start;
+  }
+  .get-updates-section .email-update-cont,
+  .get-updates-section .email-update-cont *{
+    width: 80vw !important;
+  }
+  .p-0-t-b-5r{
+    padding: 3rem 1rem;
+  }
+  .our-solution-container{
+    column-gap: 0rem;
+    overflow: hidden;
+  }
+  .lower-hero{
+    padding: 1rem;
+  }
+  .hero-button-1{
+    width: 230px;
+  }
+   nav{
+    padding: 2rem 0.5rem !important;
+   }
+   .p-1-5{
+    font-size: 15px;
+   }
+   .quote {
+    padding-inline: 6vw;
   }
 }
 @media screen and (min-width: 1400px) {
