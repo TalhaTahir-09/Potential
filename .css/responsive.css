@@ -158,3 +158,43 @@
     display: none;
   }
 }
+@media screen and (min-width: 1400px) {
+  .max-width-1400px{
+    min-width: 1400px;
+    max-width: 1400px;
+  }
+  .height-100-1400px{
+    height: 100%;
+  }
+  .grid-center-1400px{
+    display: grid;
+    place-items: center;
+  }
+  .flex-center-1400px{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .width-100-1400px{
+    width: 100%;
+  }
+  .our-tecnology-section{
+    padding: 5rem 8rem 8rem 0;
+  }
+  .p-0-t-b-5r{
+    padding: 5rem 0;
+  }
+  .contact-hero {
+    height: 580px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../assets/Images/Contact-us-1600.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+  }
+  .lower-footer {
+    background-size: 2000px;
+    height: 800px;
+  }
+}
