@@ -174,6 +174,7 @@ nav {
 
 .girl-image-section {
   height: 1060px;
+  overflow: hidden;
 }
 
 .our-solution-heading {
@@ -476,4 +477,28 @@ input[type="email"] {
 }
 .quotes-section::-webkit-scrollbar{
   transform: translateY(60px);
+}
+.order-1{
+  order: -1;
+}
+/* ham manu styling */
+.ham-menu{
+  position: absolute;
+  background-color: #a28568;
+  top: 0;right: 0;
+  left: 0;bottom: 0;
+  z-index: -1;
+  height: 100vh;
+}
+.ham-menu-ul{
+  gap: 1.5rem;
+}
+.ham-menu-underline{
+  text-decoration: underline;
+}
+.ham-menu-opener:checked + .ham-menu{
+  display: grid;
+}
+.social-footer-links{
+  font-size: 30px;
 }
